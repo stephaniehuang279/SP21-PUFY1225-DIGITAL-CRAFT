@@ -1,0 +1,42 @@
+/*selector{
+	property:value;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+
+a:link{
+	color:pink;
+}
+
+#first-section{
+	font-family:arimo;
+	color: white;
+	background-color: black;
+}
+
+#first-section a{
+	color: white;
+}
+
+#second-section{
+	font-family:arimo;
+	color: white;
+	background-color: black;
+}
+
+#second-section a{
+	color: white;
+}
+
+#button{
+	background-color: grey;
+	color:black;
+}
+
+#button a{
+	color:white;
+}
+
+#block-1 img{
+	width: 100px;
+}
