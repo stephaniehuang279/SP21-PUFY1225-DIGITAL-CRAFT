@@ -1,14 +1,34 @@
 /*selector{
 	property:value;
 }*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 
-head{
+h1{
 	color:#FFFFFF;
+	font-family:"Playfair display";
+	letter-spacing:1px;
 }
 
+a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#D5D5D5;
+}
 
 body{
-	text-indent:50px;
+	background-image: url(https://images.squarespace-cdn.com/content/v1/555cf50ae4b0d64b50fc2392/1526666038555-12R04BK40FS5ECTHV0QE/ke17ZwdGBToddI8pDm48kOaJNruYZQjYeEre7JWLrr17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfjOzPCuw9oE3SZnXUjSOXhkoaodI7x29i4Loc0zMQj2zN6QY7niGWDmqnvl2nsF8A/Sultan+11.jpg?format=2500w);
+	margin-left:50px;
 	word-spacing:4px;
-	font-family:"EB Garamond";
+	font-family:Lato;
+	font-weight:bold;
 	}
+
+p{
+	word-spacing:20px;
+	letter-spacing:2px;
+	font-size:13px;
+}
