@@ -1,17 +1,48 @@
 /*selector{
 	property:value;
 }*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body{
-	background-color:"blue";
-	margin-left:50px;
+	background-color:#B5AA99;
+	margin-top:30px;
 	word-spacing:2px;
-	font-family:"Roboto";
+	font-family:"lexend";
+	margin: 1rem;
+  	padding: 1rem;
+  	max-width: 1000px;
+  	margin: 2rem auto;
 }
+
 a{
-	color:#0000FF;
+	color:#FFFFFF;
+	text-decoration:none;
 }
+
+a:hover{
+	color:#58C6D1;
+}
+
+p{
+	margin-left:50px;
+	color:#BC4B34;
+}
+
+#week{
+	font-weight:bolder;
+}
+#name{
+	color:#423A2D;
+	font-weight:bolder;
+}
+
 h1{
-	color: teal;
+	color:#FFFFFF;
+	background-image: url(../assets/IMG_7238.jpeg);
+	background-attachment:fixed;
+	font-family:"playfair display";
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:50px;
 }
