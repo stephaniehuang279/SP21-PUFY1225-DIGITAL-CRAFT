@@ -65,6 +65,7 @@ button{
 	display:inline;
 	float:right;
 	word-spacing:2rem;
+	font-size:13px;
 }
 
 .hero-text { 
