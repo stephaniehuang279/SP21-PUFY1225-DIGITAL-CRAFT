@@ -9,6 +9,7 @@ function draw(){
 	var rectHeight = 100;
 	background("black");
 	
+	//most bottom layer
 	noStroke();
 	fill("red");
 	ellipse(width/2, height/2, 100, 100);
