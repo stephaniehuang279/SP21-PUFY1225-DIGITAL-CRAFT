@@ -5,13 +5,13 @@ let horxPos = 40;
 let horyPos = 0;
 
 function setup() {
-  createCanvas(640, 640);
+  createCanvas(640, 605);
   noLoop();
   noStroke();
 }
 
 function draw() {
-  background(124, 103, 50);
+  background(133, 110, 47);
 
 //start of horizontal
 //line1 horizontal bottom pattern
