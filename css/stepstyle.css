@@ -23,14 +23,24 @@ ul {
   margin:1rem;
 }
 
+
 .thumbnail{
-	position: absolute;
-	left:5000px;
+	position:absolute;
+	left:565px;
+	top:300px;
+	border-radius: 10px;
 }
 
 li:hover .thumbnail{
-	left:565px;
-	top:300px;
+	left:555px;
+	top:296px;
+	z-index:999;
+}
+
+.sneakpeek{
+	position:absolute;
+	left:545px;
+	top:290px;
 }
 
 a{
