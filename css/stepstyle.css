@@ -1,6 +1,9 @@
 /*selector{
 	property:value;
 }*/
+
+/*https://dev.to/sarah_chima/image-popup-on-hover-1kee (image popup on hover) */
+
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
@@ -15,13 +18,28 @@ body{
   	margin: 2rem auto;
 }
 
+ul {
+  list-style-type: none;
+  margin:1rem;
+}
+
+.thumbnail{
+	position: absolute;
+	left:5000px;
+}
+
+li:hover .thumbnail{
+	left:565px;
+	top:300px;
+}
+
 a{
 	color:#FFFFFF;
 	text-decoration:none;
 }
 
 a:hover{
-	color:#58C6D1;
+	color:#EC7E39;
 }
 
 p{
