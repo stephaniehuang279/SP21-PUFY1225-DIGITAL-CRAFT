@@ -12,9 +12,7 @@ body{
 	margin-top:30px;
 	word-spacing:2px;
 	font-family:"lexend";
-	margin: 1rem;
-  	padding: 1rem;
-  	max-width: 1000px;
+	max-width: 1000px;
   	margin: 2rem auto;
 }
 
@@ -26,22 +24,31 @@ ul {
 
 .thumbnail{
 	position:absolute;
-	left:565px;
-	top:300px;
-	border-radius: 10px;
+	margin-left:30px auto;
+	margin-right:220px;
+	right:250px auto;
+	left:600px;
+	top:255px;
 }
 
 li:hover .thumbnail{
-	left:555px;
-	top:296px;
-	z-index:999;
+	margin-left:30px auto;
+	margin-right:220px;
+	right:270px auto;
+	left:550px;
+	top:250px;
+	z-index:9999;
 }
 
 .sneakpeek{
 	position:absolute;
-	left:545px;
-	top:290px;
+	margin-left:10px auto;
+	margin-right:220px;
+	right:240px auto;
+	left:550px;
+	top:250px;
 }
+
 
 a{
 	color:#FFFFFF;
