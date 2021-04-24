@@ -25,7 +25,7 @@ ul {
 .thumbnail{
 	position:absolute;
 	margin-left:30px auto;
-	margin-right:220px;
+	margin-right:250px;
 	right:250px auto;
 	left:600px;
 	top:255px;
@@ -33,7 +33,7 @@ ul {
 
 li:hover .thumbnail{
 	margin-left:30px auto;
-	margin-right:220px;
+	margin-right:250px;
 	right:270px auto;
 	left:550px;
 	top:250px;
@@ -43,7 +43,8 @@ li:hover .thumbnail{
 .sneakpeek{
 	position:absolute;
 	margin-left:10px auto;
-	margin-right:220px;
+	margin-right:250px;
+	max-width:680px;
 	right:240px auto;
 	left:550px;
 	top:250px;
@@ -66,6 +67,9 @@ p{
 
 #week{
 	font-weight:bolder;
+	color:#D6E8E8;
+	font-size:25px;
+
 }
 #name{
 	color:#423A2D;
@@ -81,3 +85,21 @@ h1{
 	padding-bottom:20px;
 	padding-left:50px;
 }
+
+.scrolling-wrapper {
+  	overflow-y: auto; 
+  	overflow-x: hidden;
+  	white-space: nowrap;
+  	max-width: 1000px;
+  	height:560px;
+  	margin-left: 2rem auto;
+  	margin-right:2rem auto;
+  	background-color:#5F5A54;
+  	direction:ltr;
+  }
+
+ .block{
+    display: inline-block;
+    text-align:left;
+  }
+ 
