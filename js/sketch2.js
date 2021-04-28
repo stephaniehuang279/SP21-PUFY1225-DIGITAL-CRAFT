@@ -4,13 +4,13 @@ function setup() {
 }
 
 function draw() {
-  background(241, 236, 227);
+  background(26, 26, 26);
 
 //triangle pattern
   for (let x=30; x<width; x+=60){
   for (let y=0; y<height; y+=45){
   	noStroke();
-  	fill(222, 217, 211);
+  	fill(44, 43, 43);
   	triangle(x, y, x-30, y+45, x+30, y+45);
   }
   }
@@ -18,16 +18,29 @@ function draw() {
 
 
 //slanted square pattern
-  for (let i=0; i<width; i+=90){
-  for (let s=0; s<height; s+=120){	
-  	fill(241, 236, 227);
-  	stroke(153, 138, 116);
+  for (let i=0; i<width; i+=95){
+  for (let s=0; s<height; s+=100){
+  for (let x=10; x<70; x +=10){	
+  	stroke(95, 91, 87);
   	strokeWeight(2);
-  	shearX(PI/170);
-  	//square(i,s,50);
-  	shearY(PI/150);
-  	square(i,s,50);
+  	fill(77, 73, 68);
+  	square(i,s,random(x+40,x));
+  	fill(156, 101, 35);
+  	square(i,s,random(x+5,x));
+  	noFill();
+  	square(i,s,random(x+10,x));
+  	square(i,s,random(x+20,x));
+  	square(i,s,random(x+30,x));
+  	fill(216, 142, 53);
+  	square(i,s,random(x,20));
+  	noStroke();
+  	fill(185, 173, 158);
+  	triangle(i, s, i, s+25, i+25, s);
   }
   }
+  }
+  
 
-}
+ 
+
+ }
