@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-  background(137, 139, 144);
+  background(69, 70, 75);
 
 //line pattern
   for (let l=-50; l<height; l +=10){
@@ -38,6 +38,6 @@ function draw() {
 	strokeWeight(10);
 	rect(-205,177,500,200,100);
 
-  save();
+save();
 
 }
