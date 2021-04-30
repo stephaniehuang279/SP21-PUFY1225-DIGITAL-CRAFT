@@ -7,14 +7,14 @@ function setup() {
 function draw() {
   background(64, 66, 66);
 
-//random color pattern
+//random color square pattern
   for (let x = 0; x < width; x += 55){
     for (let y=0; y < height; y +=55){
     fill(random(80,255));
     square (y,x,50)
   }
   }
-  
+  //small circles
   for (let i = 0; i < width; i +=15){
     for (let y=0; y < height; y +=15){
     fill(255,255,255);
@@ -22,6 +22,7 @@ function draw() {
   }
   }
 
+//lines inside of frame
   stroke(random(180,255));
   strokeWeight(2);
   for (let l=0; l<height; l+=30){
