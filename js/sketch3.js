@@ -5,6 +5,7 @@ function setup() {
 
 function draw() {
   background(137, 139, 144);
+  save();
 
 //line pattern
   for (let l=-50; l<height; l +=10){
@@ -32,7 +33,7 @@ function draw() {
 }
 
 
-//orange line
+//blue line
 	noFill();
 	stroke(188, 221, 223);
 	strokeWeight(10);
