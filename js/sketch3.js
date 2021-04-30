@@ -38,6 +38,5 @@ function draw() {
 	strokeWeight(10);
 	rect(-205,177,500,200,100);
 
-save();
 
 }
