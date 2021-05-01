@@ -1,4 +1,4 @@
-function setup() {
+function setup() {s
   createCanvas(700,700);
   noStroke();
   noLoop();
