@@ -13,7 +13,7 @@ let gap = 20;
   for (let y = 0; y < gap; y++) {
 
       let move1 = mouseX / 20 * random(-1, 0);
-      let move2 = mouseX / 20 * random(-1, 0);
+      let move2 = mouseY / 20 * random(-1, 0);
  
       let xPos = width / 20 * x;
       let yPos = height / 20 * y;
