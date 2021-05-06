@@ -74,7 +74,7 @@ yPos=-250;
     triangle(x-50, y, x+130, y-45, x-230, y-45);
   }}
 
-save();
+//save();
 
 }
 
